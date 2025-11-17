@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img src="https://imgs.search.brave.com/QEcsRxHgWR1tU0-FKOYLVIvrWU_KKz41jfXIckKvWt8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jb250/ZW50LmpkbWFnaWNi/b3guY29tL3YyL2Nv/bXAva290YS1yYWph/c3RoYW4vdjMvOTk5/OXB4NzQ0Lng3NDQu/MjMxMjMwMjE0MzM1/LmE1djMvY2F0YWxv/Z3VlL2lpaXQta290/YS1wZXJtYW5lbnQt/Y2FtcHVzLXJhbnB1/ci1rb3RhLXJhamFz/dGhhbi15NkxuZWRX/NmM4LmpwZz93PTM4/NDAmcT03NQ"
+        alt="IIIT KOTA" class="bg">
+    <div class="container">
+        <h1>
+            This is IIIT KOTA trip form
+        </h1> <br>
+        <p class="line">
+            Fill and submit this form to confirm your participation
+        </p><br>
+        <form action="index.php" method="post">
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+            <input type="number" id="age" name="age" placeholder="Enter your age">
+            <input type="text" id="gender" name="gender" placeholder="Enter your gender">
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+            <input type="number" id="phone" name="phone" placeholder="Enter your phone">
+            <textarea name="desc" id="desc" placeholder="Enter any another informtion here"></textarea>
+            <button class="btn">submit</button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+    INSERT INTO `trip` (`S_no.`, `Name`, `Age`, `Gender`, `E-mail`, `Phone`, `Other`, `Date`) VALUES ('1', 'Piyush Garg', '19', 'Male', 'apiyushgarg2006@gmail.com', '7999039554', 'This is my first phpmyadmin message', current_timestamp());
+</body>
+
+</html>
