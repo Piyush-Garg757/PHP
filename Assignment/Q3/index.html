@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="box">
+
+        <marquee class="marq" onmouseover="this.stop();" onmouseout="this.start();">
+            Submit Your Honest Feedback and Help Us Improve!
+        </marquee>
+
+        <h1>Feedback Form</h1>
+
+        <form action="submit.php" method="post">
+
+            <input type="text" name="name" placeholder="Enter Name" required>
+            <input type="email" name="email" placeholder="Enter Email" required>
+            <textarea name="message" placeholder="Enter Feedback" required></textarea>
+
+            <h3 style="margin-top:15px;">Rate Us:</h3>
+
+            <div class="stars">
+
+                <label>
+                    <input type="radio" name="rating" value="5" required>
+                    &#9733;&#9733;&#9733;&#9733;&#9733;
+                </label>
+
+                <label>
+                    <input type="radio" name="rating" value="4">
+                    &#9733;&#9733;&#9733;&#9733;&#9734;
+                </label>
+
+                <label>
+                    <input type="radio" name="rating" value="3">
+                    &#9733;&#9733;&#9733;&#9734;&#9734;
+                </label>
+
+                <label>
+                    <input type="radio" name="rating" value="2">
+                    &#9733;&#9733;&#9734;&#9734;&#9734;
+                </label>
+
+                <label>
+                    <input type="radio" name="rating" value="1">
+                    &#9733;&#9734;&#9734;&#9734;&#9734;
+                </label>
+
+            </div>
+
+            <button class="btn">Submit Feedback</button>
+        </form>
+
+        <a class="view" href="admin.php">View All Feedback</a>
+
+    </div>
+
+</body>
+
+</html>
