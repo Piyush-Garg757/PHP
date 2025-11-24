@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Register Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <marquee class="m1" onmouseover="this.stop();" onmouseout="this.start();"> Welcome to Simple Registration
+    </marquee>
+
+
+    <div class="container">
+        <h1>User Registration</h1>
+
+        <form action="register.php" method="post">
+            <input type="text" name="name" placeholder="Enter name" required>
+            <input type="email" name="email" placeholder="Enter email" required>
+            <input type="password" name="password" placeholder="Enter password" required>
+
+            <button class="btn">Register</button>
+        </form>
+
+        <a class="view" href="users.php">View All Users</a>
+    </div>
+
+</body>
+
+</html>

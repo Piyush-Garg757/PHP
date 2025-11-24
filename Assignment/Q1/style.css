@@ -1,0 +1,80 @@
+body {
+  background: linear-gradient(45deg, #000428, #004e92);
+  font-family: Arial;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.m1 {
+  background: yellow;
+  color: black;
+  font-size: 22px;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 30px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 550px;
+  margin: auto;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+}
+
+input {
+  width: 90%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.btn {
+  width: 95%;
+  padding: 12px;
+  font-size: 18px;
+  background: orange;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn:hover {
+  transform: scale(1.05);
+  background: gold;
+}
+
+.view {
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 18px;
+  color: cyan;
+}
+
+.frame {
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
+  border: 3px solid yellow;
+}
+
+/* Table */
+.user-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+.user-table th,
+.user-table td {
+  padding: 10px;
+  border: 1px solid white;
+}
+.user-table tr:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
